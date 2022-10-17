@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    Font Family:roboto;
+
+}
+.main{
+    display: flex;
+}
+.nav_bar{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    background-color: #CCCCCC;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input{
+    width: 400px;
+    height: 20px;
+}
+#login{
+    background-color: #2B78E4;
+    width: 80px;
+    height:30px;
+    color:white;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
+#likes1{
+    background-color: #FFD966;
+    width: 100px;
+    height:30px;
+    color:white;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+}
+.ligne1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 100px;
+    align-items: centre;
+    justify-content: space-around;
+}
+    
+.ninja1{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    border: 2px solid black;
+}
+.ninja2{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+
+p{
+    margin-left: 40px;
+}

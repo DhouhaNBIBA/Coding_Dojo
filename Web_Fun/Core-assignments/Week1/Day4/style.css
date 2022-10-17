@@ -5,6 +5,20 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+.main{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+   
+}
+.col1, .col2{
+    display: flex;
+    flex-direction:column;
+    border: 20px;
+    border-color: #CCCCCC;
+    padding: 20px;
+}
+
 .nav {
     padding:15px;
     background-color: #333333;
@@ -32,3 +46,126 @@ a{
     justify-content: space-evenly;
     margin-left:0px ;
 }
+.btn{
+height: 30px;
+width: 100px;
+background-color: #17a2b8;
+color: #ffffff;
+border: none;
+font-size: 16px;
+box-shadow: 5px 5px #000000;
+margin-top: 0px;
+}
+
+.L1 , .L2 , .L3 , .L4 , .L5{
+    padding: 20px;
+    padding-top: 5px;
+    }
+a{
+    color: #0C5394;
+}
+.L1{
+    background-color: rgb(70, 173, 221);
+}
+.img_pro{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%; 
+}
+.img_map{
+    width: 20px;
+    height: 20px;
+}
+.img_gear{
+    width: 10px;
+    height: 10px;    
+}
+.L2{
+    margin-top:50px ;
+}
+.image{
+    width:30px;
+    height:30px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.c_req,.y_con, .ligne1, .ligne2, .ligne3, .ligne4{
+    display: flex;
+    align-items: center;
+}
+.num1 , .num2{
+    border: #CCCCCC;
+    height: 30px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    color: #000000;
+}
+.edu, .c_req, .y_con{
+    background-color: #333333;
+    padding: 20px;
+    padding-top: 5px;
+    color: white;
+}
+.col2{
+    display: flex;
+    border: #CCCCCC;
+    padding: 20px;
+}
+.connection{
+    flex:1;
+    justify-content: centre;
+    align-items: center;
+    padding: 2px;
+    border-style: groove;
+    border-color: #CFCFCF;
+}
+.Y_connection{
+    flex: 2;
+    border-style: groove;
+    border-color: #CFCFCF;
+    margin-top: 20px;
+}
+.c_req{
+
+}
+.user_card{
+    flex: 1;
+    border-style: groove;
+    border-color: #CCCCCC;
+    margin-bottom: 20px;
+    
+}
+.education{
+    flex:1;
+    border-style: groove;
+    border-color: #CCCCCC;
+}
+.ligne1{
+    display: flex;
+    margin-top: 5px;
+}
+.parti1{
+    display: flex;
+ 
+    align-items: center;
+    
+}
+.parti2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
