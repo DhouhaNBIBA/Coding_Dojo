@@ -1,0 +1,39 @@
+.main{
+    background-color: azure;
+    
+}
+h1{
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(41, 35, 35);
+
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    margin: 20px;
+}
+.ligne1{
+    border: 0px;
+    background-color: rgb(54, 54, 153);
+    margin: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.ligne2{
+ 
+    background-color: rgb(153, 54, 123);
+    margin: 40px;
+    padding: 30px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.ligne3{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}

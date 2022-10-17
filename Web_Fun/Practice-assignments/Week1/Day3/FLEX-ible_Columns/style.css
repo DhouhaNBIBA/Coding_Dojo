@@ -1,0 +1,34 @@
+.row{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    border: 10px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+div{
+    margin: 20px;
+    border: 4px; 
+}
+.col{
+    flex: 1;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(82, 185, 151);
+
+    
+}
+.col-2{
+    flex: 2;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(82, 185, 151);
+}
+.col-3{
+    flex: 3;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(82, 185, 151);
+}

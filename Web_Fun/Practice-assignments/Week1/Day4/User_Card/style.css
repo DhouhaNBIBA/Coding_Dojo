@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 300px;
+    margin-top: 40px;
+    border: 50px;
+    border:2px solid rgb(192, 190, 190);
+    
+}
+.L1 , .L2 , .L3 , .L4 , .L5{
+    padding: 20px;
+    padding-top: 5px;
+
+}
+.L1{
+    background-color: rgb(70, 173, 221);
+}
+.img_pro{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 70px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%; 
+}
+.img_map{
+    width: 20px;
+    height: 20px;
+}
+.img_gear{
+    width: 10px;
+    height: 10px;    
+}
+.L2{
+    margin-top:50px ;
+}
