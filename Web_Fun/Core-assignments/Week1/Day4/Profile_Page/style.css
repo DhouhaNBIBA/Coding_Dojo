@@ -9,14 +9,14 @@ body {
     display: flex;
     flex-direction:row;
     justify-content: center;
-   
 }
-.col1, .col2{
+.col1{
     display: flex;
     flex-direction:column;
     border: 20px;
     border-color: #CCCCCC;
     padding: 20px;
+    width: 600px;
 }
 
 .nav {
@@ -27,16 +27,17 @@ body {
     display: flex;
     align-items: centre;
     justify-content: space-between;
+    text-decoration : none;
 }
-li{
+/* li{
     color: #ffffff;
     text-decoration : none;
     align-items: center;
     margin-right: 10px;
-}
-a{
-    text-decoration : none;
+} */
+li a{
     color: white;
+    text-decoration : none;
 }
 .nav-links{
     width: 50%;
@@ -47,23 +48,20 @@ a{
     margin-left:0px ;
 }
 .btn{
-height: 30px;
-width: 100px;
-background-color: #17a2b8;
-color: #ffffff;
-border: none;
-font-size: 16px;
-box-shadow: 5px 5px #000000;
-margin-top: 0px;
+    height: 30px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+    margin-top: 0px;
 }
 
 .L1 , .L2 , .L3 , .L4 , .L5{
     padding: 20px;
     padding-top: 5px;
     }
-a{
-    color: #0C5394;
-}
 .L1{
     background-color: rgb(70, 173, 221);
 }
@@ -97,7 +95,7 @@ a{
     height: 30px;
     border-radius: 50%;
 }
-.c_req,.y_con, .ligne1, .ligne2, .ligne3, .ligne4{
+.c_req,.y_con, .ligne1, .ligne2{
     display: flex;
     align-items: center;
 }
@@ -120,10 +118,14 @@ a{
     color: white;
 }
 .col2{
+    padding: 20px;
     display: flex;
-    border: #CCCCCC;
+    flex-direction:column;
+    border: 20px;
+    border-color: #CCCCCC;
     padding: 20px;
 }
+
 .connection{
     flex:1;
     justify-content: centre;
@@ -134,13 +136,12 @@ a{
 }
 .Y_connection{
     flex: 2;
+    border: 5px ;
     border-style: groove;
-    border-color: #CFCFCF;
+    border-color: #CCCCCC;
     margin-top: 20px;
 }
-.c_req{
 
-}
 .user_card{
     flex: 1;
     border-style: groove;
@@ -153,19 +154,37 @@ a{
     border-style: groove;
     border-color: #CCCCCC;
 }
-.ligne1{
+.ligne1 , .ligne2{
     display: flex;
+    justify-content: space-around;
+    align-items: centre;
     margin-top: 5px;
 }
 .parti1{
     display: flex;
- 
+    justify-content: flex-start;
     align-items: center;
     
 }
+
 .parti2{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+} 
+.ligne3, .ligne4 ,.ligne5 , .ligne6{
+    padding-left: 30px;
+    padding-top: 10px;
+    justify-content: center;
 }
-
+.part3{
+    margin: 30px;
+    
+}
+.t1, .t2, .t3{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.t2 , #coleur, #coleur2{
+    color: #CCCCCC;
+}
