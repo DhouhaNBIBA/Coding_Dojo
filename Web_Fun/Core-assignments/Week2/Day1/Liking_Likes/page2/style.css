@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 100px;
+}
+.nav-bar{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.feed{
+    text-align: center;
+    padding: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    text-align: center;
+    padding-top: 30px;
+    border: 2px solid black;
+    margin:50px;
+    margin-left: 0px;
+    height: 200px;
+    width: 200px;
+    
+
+}
+.right{
+    flex: 3;
+    margin: 30px;
+    margin-right: 0px;
+}
+.num{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.ligne{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+}
+.likes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #FFD966;
+    border: 3px solid black;
+}
+input{
+    width=10px;
+    height=10p;
+}
