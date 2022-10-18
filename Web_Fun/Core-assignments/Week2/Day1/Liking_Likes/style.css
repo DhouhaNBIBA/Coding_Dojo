@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    border: 2px solid black;
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+}
+.flex{
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.likes{
+    width: 200px;
+    align-items: centre;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #FFD966;
+    border: 3px solid black;
+}
+input{
+    width=10px;
+    height=10p;
+}
