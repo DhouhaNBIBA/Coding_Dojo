@@ -3,15 +3,17 @@
     padding: 0px;
 }
 body{
-    Font Family:roboto;
+    font-family: "Lucida Console", "Courier New", monospace;
 
+}
+.container{
+    margin: 0 100px;
 }
 .main{
     display: flex;
+    
 }
 .nav_bar{
-    margin-left: 100px;
-    margin-right: 100px;
     margin-bottom: 50px;
     background-color: #CCCCCC;
     padding: 10px;
@@ -21,52 +23,77 @@ body{
 }
 input{
     width: 400px;
-    height: 20px;
+    height: 40px;
 }
-#login{
+.login{
     background-color: #2B78E4;
     width: 80px;
     height:30px;
     color:white;
     box-shadow: 3px 3px rgb(0, 0, 0);
 }
-#likes1{
+.btn-1{
     background-color: #FFD966;
     width: 100px;
     height:30px;
-    color:white;
+    color: azure;
     box-shadow: 3px 3px rgb(0, 0, 0);
 }
-.ligne1{
+.btn-2{
+    background-color: #93C47D;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    box-shadow: 3px 3px rgb(0, 0, 0);
+    text-align: center;
+    
+}
+
+.left{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 100px;
+    margin: 20px;
+    margin-left: 0px;
     align-items: centre;
     justify-content: space-around;
+}
+.right{
+    border: 3px solid black;
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    padding: 20px;
 }
     
 .ninja1{
     display: flex;
-    flex:1;
+    /* flex:1; */
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 20px;
-    border: 2px solid black;
+    padding: 30px;
+    border: 3px solid black;
+    
 }
 .ninja2{
     display: flex;
-    flex: 1;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     margin-top: 40px;
     padding: 20px;
-    border: 2px solid black;
+    border: 3px solid black;
 }
+.like{
+    width: 300px;
+    text-align: center;
 
-
+}
 p{
     margin-left: 40px;
+}
+h1, h2, .btn-1, .btn-2{
+    padding: 10px 0;
+    text-align: centre;
 }
