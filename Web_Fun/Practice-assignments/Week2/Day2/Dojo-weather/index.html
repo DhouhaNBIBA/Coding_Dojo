@@ -11,13 +11,13 @@
     <div class="nav-bar">
         <h1>DojoWeather</h1>
         <ul>
-            <li>Burbank</li>
-            <li>Chicago</li>
-            <li>Dallas</li>
+            <li id="txt" onclick="alerting()">Burbank</li>
+            <li id="txt" onclick="alerting()">Chicago</li>
+            <li id="txt" onclick="alerting()">Dallas</li>
         </ul>   
     </div>
     <div class="nav-bar2">
-        <h3>San Jose</h3>
+        <h1>San Jose</h1>
         <form>
             <label>Show tempurature in</label>
             <select name="tempurature">
@@ -27,37 +27,37 @@
         </form>
     </div>
     <div class="expectation">
-        <div class="today">
-            <h3>Today</h3>
+        <div class="day">
+            <h2>Today</h2>
             <img src="assets/some_rain.png" alt="">
-            <h5>Some Rain</h5>
+            <h4>Some Rain</h4>
             <div class="tump">
                 <p class="red">24°</p>
                 <p class="blue">18°</p>
             </div>
         </div>
-        <div class="tomorrow">
-            <h3>Tomorrow</h3>
+        <div class="day">
+            <h2>Tomorrow</h2>
             <img src="assets/some_sun.png" alt="">
-            <h5>Some Sun</h5>
+            <h4>Some Sun</h4>
             <div class="tump">
                 <p class="red">27°</p>
                 <p class="blue">19°</p>
             </div>
         </div>
-        <div class="friday">
-            <h3>Friday</h3>
+        <div class="day">
+            <h2>Friday</h2>
             <img src="assets/some_clouds.png" alt="">
-            <h5>Some Cloud</h5>
+            <h4>Some Cloud</h4>
             <div class="tump">
                 <p class="red">21°</p>
                 <p class="blue">16°</p>
             </div>
         </div>
-        <div class="saturday">
-            <h3>Saturday</h3>
+        <div class="day" id="no">
+            <h2>Saturday</h2>
             <img src="assets/some_sun.png" alt="">
-            <h5>Some Sun</h5>
+            <h4>Some Sun</h4>
             <div class="tump">
                 <p class="red">26°</p>
                 <p class="blue">21°</p>
@@ -65,12 +65,12 @@
         </div>
     </div>
     <div class="block">
-        <img src="assets/cookie.png" alt="">
-        <p>
+        <img src="assets/cookie.png" alt="" id="cookie">
+        <div class="p">
             <h4>Stop Cookie Time</h4>
-        We use Cookies (saddly not edible ones) to personalize content and ads, to provide social media features and to analyse our trafic <a>Read More...</a>
-        </p>
-        <button>I Accept</button>
+            We use Cookies (saddly not edible ones) to personalize content and ads, to provide social media features and to analyse our trafic<a href="#">Read More...</a>
+        </div>
+        <button onclick="remove()">I Accept</button>
     </div>
     
     <script src="script.js"></script>
